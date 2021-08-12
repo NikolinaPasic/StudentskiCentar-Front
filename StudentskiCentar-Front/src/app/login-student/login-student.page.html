@@ -1,0 +1,19 @@
+
+<ion-content>
+<div id="header">
+  <img class="logo" src="../../assets/Beogradski_univerzitet_grb.png" alt="">
+  <h1>Dobrodošli!</h1>
+</div>
+<form id="form">
+  <ion-item color="transparent" lines="full">
+    <ion-label class="label" position="floating" >Username</ion-label>
+    <ion-input class="input-text" type="text"  [(ngModel)]="this.username"  name ="username" required></ion-input>
+  </ion-item>
+  <ion-item color="transparent" lines="full">
+    <ion-label class="label" position="floating" >Password</ion-label>
+    <ion-input class="input-text" type="password" [(ngModel)]="this.password"  name ="password" requiredname="password" required></ion-input>
+  </ion-item>
+</form>
+<ion-button class="login-button" expand="block" shape="round" (click)="login()">Prijavi se</ion-button>
+<img src="../../assets/loginslika-03.png" alt="">
+</ion-content>

@@ -1,0 +1,60 @@
+ion-content {
+  --background: url("../../assets/pozadina-02.png") 0 0/100% 100% no-repeat;
+  #main {
+    margin-top: 45%;
+
+    .stanje {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-left: 5%;
+      margin-top: 10%;
+      .prezime {
+        font-size: 28px;
+        font-weight: 200;
+        color: #0a024c;
+      }
+      .ime {
+        font-size: 28px;
+        font-weight: 200;
+        color: #0a024c;
+      }
+      .trenutno {
+        font-size: 25px;
+        color: #0a024c;
+      }
+      .cifra {
+        font-size: 30px;
+        font-weight: 600;
+        color: #0a024c;
+      }
+    }
+    .menu {
+      display: flex;
+      flex-direction: row !important;
+      align-items: center;
+      margin-top: 10%;
+      margin-left: 1%;
+      .kartica {
+        .naslov {
+          margin-top: 5%;
+          font-size: 20px;
+          font-weight: 600;
+          word-spacing: inherit;
+          margin-left: 20%;
+          color: #d0243c;
+        }
+        width: 150px;
+        height: 150px;
+      }
+      .naslovmasina {
+        color: #d0243c;
+        font-size: 17px;
+        font-weight: 700;
+      }
+      img {
+        margin-bottom: 15%;
+      }
+    }
+  }
+}
