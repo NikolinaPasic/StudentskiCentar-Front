@@ -1,0 +1,120 @@
+ion-content {
+  --background: url("../../assets/pozadina-02.jpg") 0 0/100% 100% no-repeat;
+  #main {
+    margin-top: 5%;
+    margin-left: 5%;
+    .naslov {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 1%;
+      font-size: 25px;
+      font-weight: 700;
+      color: #d0243c;
+    }
+  }
+  .red {
+    margin-left: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 15%;
+    margin-bottom: 8%;
+    .brojdorucaka {
+      margin-left: 8%;
+      font-size: 50px;
+      font-weight: 200;
+      color: #d0243c;
+      max-width: 20%;
+    }
+    .brojrucaka {
+      margin-left: 12%;
+      font-size: 50px;
+      font-weight: 200;
+      color: #d0243c;
+      max-width: 20%;
+    }
+    .brojvecera {
+      margin-left: 10%;
+      font-size: 50px;
+      font-weight: 200;
+      color: #d0243c;
+      max-width: 20%;
+    }
+    .dorucakp {
+      --ion-color-base: #d0243c !important;
+      --ion-color-shade: #d0243c !important;
+    }
+    .dorucak- {
+      --ion-color-base: #d0243c !important;
+      --ion-color-shade: #d0243c !important;
+    }
+    .kolona {
+      margin-left: 15%;
+    }
+  }
+  .stanje {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 10%;
+    margin-left: 5%;
+    .trenutno {
+      margin-left: 2%;
+      font-size: 20px;
+      color: #0a024c;
+    }
+    .cifra {
+      font-size: 20px;
+      font-weight: 600;
+      color: #0a024c;
+    }
+  }
+  .ime {
+    margin-top: 9%;
+    margin-bottom: 9%;
+    font-size: 17px;
+    font-weight: 200;
+    color: #0a024c;
+  }
+
+  .rucakp {
+    --ion-color-base: #d0243c !important;
+    --ion-color-shade: #d0243c !important;
+  }
+  .rucak- {
+    --ion-color-base: #d0243c !important;
+    --ion-color-shade: #d0243c !important;
+  }
+  .vecerap {
+    --ion-color-base: #d0243c !important;
+    --ion-color-shade: #d0243c !important;
+  }
+  .vecera- {
+    --ion-color-base: #d0243c !important;
+    --ion-color-shade: #d0243c !important;
+  }
+  .kolonau {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+    .ukupno {
+      font-size: 30px;
+      font-weight: 200;
+      color: #d0243c;
+    }
+    .cena {
+      font-size: 30px;
+      font-weight: 600;
+      color: #d0243c;
+    }
+    .dugme {
+      margin-top: 15%;
+      width: 150px;
+      font-size: 20px;
+      --ion-color-base: #d0243c !important;
+      --ion-color-shade: #d0243c !important;
+    }
+  }
+}

@@ -1,0 +1,42 @@
+<ion-content>
+  <div id="main">
+    <ion-buttons>
+      <ion-icon class= "back" name="arrow-back-outline" (click) = "dismissModal()"> </ion-icon>
+    </ion-buttons>
+      <ion-label class="naslov">Kupljeni obroci</ion-label>
+    <div class="menu">
+      <ion-label class="ime"> Doručak:</ion-label>
+      <ion-card class = "kartica">
+       <ion-card-content>
+        <ion-label class="number">
+          {{current.brojDorucaka}}
+        </ion-label>
+        </ion-card-content>
+        </ion-card>
+        <ion-label class="ime"> Ručak:</ion-label>
+        <ion-card class = "kartica">
+          <ion-card-content>
+            <ion-label class="number">
+              {{current.brojRucaka}}
+            </ion-label>
+          </ion-card-content>
+        </ion-card>
+        <ion-label class="ime"> Večera:</ion-label>
+          <ion-card class = "kartica">
+            <ion-card-content>
+              <ion-label class="number">
+                {{current.brojVecera}}
+              </ion-label>
+            </ion-card-content>
+          </ion-card>
+          </div>
+      </div>
+      <div class="dugmici" fxLayout="row" fxLayoutAlign="space-between end" >
+        <ion-fab class="qrcode" slot="fixed">
+          <ion-fab-button class="dugmence">
+            <ion-icon name="qr-code-outline"></ion-icon>
+          </ion-fab-button>
+        </ion-fab>
+      <ion-button class="dugme" color="medium" (click)="openModalKupi()">KUPI OBROKE</ion-button>
+    </div>
+</ion-content>

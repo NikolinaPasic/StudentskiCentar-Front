@@ -1,0 +1,37 @@
+ion-content {
+  --background: url("../../assets/pozadina-02.jpg") 0 0/100% 100% no-repeat;
+  #main {
+    margin-top: 5%;
+    margin-left: 5%;
+    .naslov {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 1%;
+      font-size: 25px;
+      font-weight: 700;
+      color: #d0243c;
+    }
+  }
+  .stanje {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-left: 5%;
+    .trenutno {
+      font-size: 20px;
+      color: #0a024c;
+    }
+    .cifra {
+      font-size: 20px;
+      font-weight: 600;
+      color: #0a024c;
+    }
+  }
+}
+.dugme {
+  margin-left: 55%;
+  margin-right: 8%;
+  --ion-color-base: #d0243c !important;
+  --ion-color-shade: #d0243c !important;
+}

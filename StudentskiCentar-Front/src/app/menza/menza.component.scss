@@ -1,0 +1,56 @@
+ion-content {
+  --background: url("../../assets/plava-02.jpg") 0 0/100% 100% no-repeat;
+  .naslov {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1%;
+    font-size: 25px;
+    font-weight: 700;
+    color: #d0243c;
+  }
+  .back {
+    margin-top: 5%;
+    margin-left: 5%;
+  }
+}
+.menu {
+  margin-top: 7%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .ime {
+    font-size: 20px;
+    font-weight: 200;
+    color: #0a024c;
+  }
+  .kartica {
+    margin-bottom: 15%;
+    width: 50%;
+    .number {
+      margin-left: 40%;
+      font-size: 50px;
+      font-weight: 200;
+      color: #d0243c;
+    }
+  }
+}
+.dugme {
+  margin-left: 55%;
+  margin-right: 8%;
+  --ion-color-base: #d0243c !important;
+  --ion-color-shade: #d0243c !important;
+}
+.qrcode {
+  margin-left: 15%;
+  width: 50%;
+  height: 50%;
+
+  .dugmence {
+    --background: #d0243c !important;
+    --background-activated: #d0243c !important;
+  }
+}
+.dugmici {
+  margin-top: 0% !important;
+}

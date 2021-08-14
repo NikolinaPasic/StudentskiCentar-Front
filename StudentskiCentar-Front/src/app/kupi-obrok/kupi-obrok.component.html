@@ -1,0 +1,48 @@
+<ion-content>
+  <div id="main">
+    <ion-buttons>
+      <ion-icon class= "back" name="arrow-back-outline" (click) = "dismissModal()"> </ion-icon>
+    </ion-buttons>
+    <ion-label class="naslov">Kupovina obroka</ion-label>
+  </div>
+  <div class="stanje" fxLayout="column" fxLayoutAlign="space-between start" >
+    <ion-label class="cifra">{{current.stanjeNaRacunu}} rsd</ion-label>
+    <ion-label class="trenutno"> raspoloživo</ion-label>
+  </div>
+  <div class="red">
+  <ion-label class="ime"> Doručak:</ion-label>
+
+    <ion-label class="brojdorucaka">
+      {{dorucak}}
+    </ion-label>
+    <div class="kolona">
+      <ion-button class="dorucakp" color="medium" (click)= "dorucakp()">+1</ion-button>
+      <ion-button class="dorucak-" color="medium" (click)= "dorucakm()" >-1</ion-button>
+    </div>
+  </div>
+    <div class="red">
+    <ion-label class="ime"> Ručak:</ion-label>
+        <ion-label class="brojrucaka">
+          {{rucak}}
+        </ion-label>
+    <div class="kolona">
+      <ion-button class="rucakp" color="medium" (click)= "rucakp()">+1</ion-button>
+      <ion-button class="rucak-" color="medium" (click)= "rucakm()">-1</ion-button>
+    </div>
+  </div>
+  <div class="red">
+    <ion-label class="ime"> Večera:</ion-label>
+          <ion-label class="brojvecera">
+            {{vecera}}
+          </ion-label>
+      <div class="kolona">
+        <ion-button class="vecerap" color="medium" (click)= "vecerap()">+1</ion-button>
+        <ion-button class="vecera-" color="medium" (click)= "veceram()">-1</ion-button>
+      </div>
+  </div>
+  <div class="kolonau">
+  <ion-label class="ukupno">UKUPNO:</ion-label>
+  <ion-label class="cena">{{cena}}</ion-label>
+  <!-- <ion-button class="dugme" color="medium" (click)="potvrdi()">POTVRDI</ion-button> -->
+</div>
+</ion-content>
